@@ -90,6 +90,14 @@
             from {transform:scale(0)} 
             to {transform:scale(1)}
         }
+
+        @media (max-width: 768px) {
+            /* Tudo que tiver a classe .desktop-only vai sumir em telas menores que 768px */
+            .desktop-only {
+                display: none;
+            }
+        }
+
     </style>
 </head>
 <body>
@@ -128,6 +136,11 @@
                 <span class="link-text">AppSheet</span>
             </a>
             -->
+
+            <a href="bambu://open" class="link-btn desktop-only">
+                <img src="./img/bambulab_logo.jpg" class="link-icon">
+                <span class="link-text">Abrir Bambu Studio</span>
+            </a>
 
             <a href="https://makerworld.com/pt" target="_self" class="link-btn">
                 <img src="./img/makerworld_logo.jpg" class="link-icon">

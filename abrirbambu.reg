@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\bambu]
+@="URL:Bambu Protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\bambu\shell]
+
+[HKEY_CLASSES_ROOT\bambu\shell\open]
+
+[HKEY_CLASSES_ROOT\bambu\shell\open\command]
+@="\"C:\\Program Files\\Bambu Studio\\bambu-studio.exe\""
