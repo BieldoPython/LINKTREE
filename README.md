@@ -1,2 +1,4 @@
 # LINKTREE
-Linktree da loja R&amp;B3D
+
+
+as imagens dos ícones tem 740x740px, estão em .jpg
